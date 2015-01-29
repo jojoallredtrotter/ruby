@@ -3,19 +3,19 @@
 
  students = ['Daniele', 'Aleisia', 'Anita', 'Ben', 'Thomas', 'Matthew', 'Mark', 'Jennifer', 'Cameron']
 
-puts students
-puts " "
 students.shuffle!
-puts students
 
 #set a count
 count = 6
+num_students = students.length - 1
 
 # until count is the number of students 
-until count == students.lenght - 1
+until count == num_students - 1
 
-	# student pairs
 	puts "#{students[count]} & #{students[count+1]}"
+else
+	puts "#{students[count]}, #{{students[count+1]}}"
+end	
 
 
 	# increase the count 
