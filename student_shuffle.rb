@@ -4,5 +4,9 @@
  students = ['Daniele', 'Aleisia', 'Anita', 'Ben', 'Thomas', 'Matthew', 'Mark', 'Jennifer', 'Cameron']
 
 puts students
+puts " "
+students.shuffle!
+puts students
+
 
 
