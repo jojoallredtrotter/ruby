@@ -8,5 +8,21 @@ puts " "
 students.shuffle!
 puts students
 
+#set a count
+count = 6
+
+# until count is the number of students 
+until count == students.lenght - 1
+
+	# student pairs
+	puts "#{students[count]} & #{students[count+1]}"
+
+
+	# increase the count 
+	count == 2
+
+end
+
+
 
 
